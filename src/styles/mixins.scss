@@ -1,0 +1,21 @@
+@import '~bulma/sass/utilities/initial-variables';
+@import '~bulma/sass/utilities/functions';
+
+$family-serif: Inconsolata, Consolas, monospace;
+$link: hsl(204, 86%, 53%);
+
+@import '~bulma/bulma';
+
+.navbar-item img {
+  max-height: none;
+}
+
+.notification a:not(.button) {
+  text-decoration: none;
+}
+
+.navbar.is-dark .navbar-brand > a.navbar-item:hover {
+  background: unset;
+}
+
+$font-stack: 1rem Inconsolata;

@@ -1,0 +1,7 @@
+{
+  "example": {
+    "port": 3060,
+    "baseUrl": "http://localhost:3020/",
+    "publicBasename": "react-boilerplate/"
+  }
+}

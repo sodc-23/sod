@@ -1,0 +1,11 @@
+.route-content--container {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+
+  .route-content--header,
+  .route-content--counter {
+    display: flex;
+    align-content: center;
+  }
+}
